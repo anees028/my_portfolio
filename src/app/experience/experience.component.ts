@@ -14,14 +14,20 @@ export class ExperienceComponent implements OnInit {
         role: "Associate Full Stack Developer",
         company: "DAOProptech",
         color: "#3781c2",
-        companylogo: "../../../assets/images/infosys.png", //Need to update
+        link: "https://daoproptech.com/",
+        companylogo: "../../../assets/images/dao.png", //Need to update
         date: "Aug 2021 – Dec 2022",
         // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        desc: "Upcoming Software Enginer Specialist(SES) at Infosys", //Need to update
-        // descBullets: [
-        //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-        // ]
+        desc: "I have worked as a full stack web developer at DAOProptech, gaining experience in developing web applications and working in a team environment.", 
+      },
+      {
+        role: "Software Engineer Intern",
+        company: "CUST University",
+        color: "#ff9102",
+        link: "https://cust.edu.pk/",
+        companylogo: "../../../assets/images/cust.png",
+        date: "Jul 2020 – Sep 2020",
+        desc: "The 8- Week summer training focused on mobile application development using (React Native) and helped learn to work in a team.",
       },
       // {
       //   role: "Computer Science & Engineering",
@@ -35,18 +41,6 @@ export class ExperienceComponent implements OnInit {
       //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       //   // ]
       // },
-      {
-        role: "Software Engineer Intern",
-        company: "CUST University",
-        color: "#ff9102",
-        companylogo: "../../../assets/images/ibs.png",
-        date: "Jul 2020 – Sep 2020",
-        desc: "The 8- Week summer training focused on mobile application development using (React Native) and helped learn to work in a team",
-        },
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
     ]
   };
 

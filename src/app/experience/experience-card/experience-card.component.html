@@ -1,14 +1,15 @@
-
-
 <div class="experience-card" wmAnimate="bumpIn" aos speed="normal">
   <div [ngStyle]="{background: experience.color}" class="experience-banner">
     <div class="experience-blurred_div"></div>
     <div class="experience-div-company">
+      <a href={{experience.link}}  target="_blank">
       <h5 class="experience-text-company">{{experience.company}}</h5>
+      </a>
     </div>
-
-    <img crossOrigin="anonymous" class="experience-roundedimg" [src]="experience.companylogo" >
-<!--    <p>{{colors.myDominantColor}}</p>-->
+    <a href={{experience.link}}  target="_blank">
+      <img crossOrigin="anonymous" class="experience-roundedimg" [src]="experience.companylogo">
+    </a>
+    <!--    <p>{{colors.myDominantColor}}</p>-->
   </div>
   <div class="experience-text-details">
     <h5 class="experience-text-role">{{experience.role}}</h5>
@@ -19,5 +20,3 @@
     </ul>
   </div>
 </div>
-
-
