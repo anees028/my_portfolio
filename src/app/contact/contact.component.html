@@ -1,0 +1,21 @@
+
+<div class="main contact-margin-top" id="contact" wmAnimate="jackInTheBox" aos speed="normal">
+  <div class="contact-div-main">
+    <div class="contact-header">
+      <h1 class="heading contact-title">{{contactInfo.title}}</h1>
+      <p class="subTitle contact-subtitle">{{contactInfo.subtitle}}</p>
+      <div class="contact-text-div">
+        <a class="contact-detail" href="{{'tel:'+ contactInfo.number}}">{{contactInfo.number}}</a>
+        <br><br>
+        <a class="contact-detail-email" href="{{'mailto:' + contactInfo.email_address}}">
+          {{contactInfo.email_address}}</a>
+        <br><br>
+        <app-social-media></app-social-media>
+      </div>
+    </div>
+<!--      <div >-->
+<!--&lt;!&ndash;      <img src="../../assets/images/contactMail.webp" class="contact-image">&ndash;&gt;-->
+<!--      </div>-->
+
+  </div>
+</div>

@@ -1,0 +1,14 @@
+
+<div *ngIf="workExperiences.viewExperiences">
+  <div id="experience">
+      <div class="experience-container" id="workExperience">
+        <div>
+          <h1 class="experience-heading">Experiences</h1>
+          <div class="experience-cards-div">
+            <app-experience-card  *ngFor="let card of workExperiences.experience" [experience]="card"></app-experience-card>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
