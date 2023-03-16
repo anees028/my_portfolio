@@ -23,6 +23,9 @@ export class ProjectsComponent implements OnInit {
     {
       link: "https://github.com/anees028/NBAapp",
     },
+    {
+      link: "https://github.com/anees028/my_portfolio",
+    },
     // {
     //   link: "https://natours-8aa57.web.app/",
     // },

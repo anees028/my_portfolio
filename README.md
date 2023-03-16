@@ -38,7 +38,6 @@ Generate a Github personal access token using these [Instructions](https://help.
 
 - [AngularJS](https://angularjs.org/)
 - [graphql](https://graphql.org/) 
-- [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
