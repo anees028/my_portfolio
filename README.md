@@ -1,11 +1,11 @@
 # Software Developer Portfolio using Angular ⚡️ 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
-<!-- <p align="center"> 
+<p align="center"> 
   <kbd>
 <img src="./src/assets/images/portfolio.gif"></img>
   </kbd>
-</p> -->
+</p>
 
 
 ## Sections 
