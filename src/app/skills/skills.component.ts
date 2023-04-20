@@ -17,6 +17,7 @@ export class SkillsComponent implements OnInit {
       "⚡ Experience of working with Computer Vision and NLP projects"
     ]
   };
+  
   constructor() { }
 
   ngOnInit(): void {
