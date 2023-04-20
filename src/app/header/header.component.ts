@@ -49,7 +49,7 @@ export class HeaderComponent implements OnInit {
     username: "Anees ur Rehman",
     title: "Hi, I'm Anees",
     subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
-    resumeLink: "https://drive.google.com/file/d/1Zno1YQ3NlCs217ZywbWVVRbMUqBjrNSS/view?usp=share_link"
+    resumeLink: "https://drive.google.com/file/d/1ZefFEBNjM5pG6MouETpZ_W61qp_nSHeO/view?usp=share_link"
   }
 
   ngOnInit(): void {
