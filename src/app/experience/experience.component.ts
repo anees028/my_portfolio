@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss']
 })
-export class ExperienceComponent implements OnInit {#E75420
+export class ExperienceComponent implements OnInit {
 
   public workExperiences = {
     viewExperiences: true,
