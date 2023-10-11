@@ -5,11 +5,21 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss']
 })
-export class ExperienceComponent implements OnInit {
+export class ExperienceComponent implements OnInit {#E75420
 
   public workExperiences = {
     viewExperiences: true,
     experience: [
+      {
+        role: "Web Developer (Part time)",
+        company: "50Hertz Transmission GmbH",
+        color: "#FE6E3B",
+        link: "https://www.50hertz.com/",
+        companylogo: "../../../assets/images/50hertz.png", //Need to update
+        date: "Jun 2023 – Present",
+        // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        desc: "I am working in Digital Department of the company, learning the new technologies with a good team. ", 
+      },
       {
         role: "Associate Full Stack Developer",
         company: "DAOProptech",
