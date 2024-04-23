@@ -9,6 +9,14 @@ export class SoftwareSkillComponent implements OnInit {
   skillsSection = {
     softwareSkills: [
       {
+        skillName: "JavaScript/TypeScript",
+        fontAwesomeClassname: "fab fa-js"
+      },
+      {
+        skillName: "python",
+        fontAwesomeClassname: "fab fa-python"
+      },
+      {
         skillName: "html-5",
         fontAwesomeClassname: "fab fa-html5"
       },
@@ -19,10 +27,6 @@ export class SoftwareSkillComponent implements OnInit {
       {
         skillName: "sass",
         fontAwesomeClassname: "fab fa-sass"
-      },
-      {
-        skillName: "JavaScript",
-        fontAwesomeClassname: "fab fa-js"
       },
       {
         skillName: "Angularjs",
@@ -41,12 +45,8 @@ export class SoftwareSkillComponent implements OnInit {
         fontAwesomeClassname: "fab fa-npm"
       },
       {
-        skillName: "sql-database",
+        skillName: "sql / Non-sql",
         fontAwesomeClassname: "fas fa-database"
-      },
-      {
-        skillName: "python",
-        fontAwesomeClassname: "fab fa-python"
       },
       {
         skillName: "git",
