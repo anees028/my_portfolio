@@ -37,7 +37,5 @@ Generate a Github personal access token using these [Instructions](https://help.
 ## Technologies used 🛠️
 
 - [AngularJS](https://angularjs.org/)
-- [graphql](https://graphql.org/) 
+- [mysql](https://www.mysql.com/) 
 
-## Illustrations
-- [UnDraw](https://undraw.co/illustrations)
