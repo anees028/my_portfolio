@@ -17,7 +17,7 @@ export class EducationComponent implements OnInit {
     // },
     {
       heading: "MS'c Artificial Intelligence",
-      duration: "2022 - Present",
+      duration: "2022 - 2025",
       subtitle: "BTU, Cottbus",
       content: "I am currently pursuing an MS in Artificial Intelligence from Brandenburgische Technische Universität Cottbus-Senftenberg.",
       location: "Cottbus, Germany.",
@@ -26,7 +26,7 @@ export class EducationComponent implements OnInit {
     },
     {
       heading: "BS Software Engineering",
-      duration: "2021",
+      duration: "2017 - 2021",
       subtitle: "CUST University, Islamabad",
       content: "Successfully completed my Bachelor in Software Engineering from Capital University of Science & Technology.",
       location: "Islamabad, Pakistan.",
