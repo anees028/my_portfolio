@@ -1,0 +1,18 @@
+
+<div class="main" id="skills">
+    <div class="skills-main-div">
+        <div class="skills-image-div" wmAnimate="fadeInRight" aos speed="normal">
+          <img alt="Anees Working" src="/images/developerActivity.svg" class="skills-image-div">
+        </div>
+        <div class="skills-text-div" wmAnimate="fadeInLeft" aos speed="normal">
+          <h1 class="skills-heading py-7">{{skillsSection.title}}</h1>
+          <p class="subTitle skills-text-subtitle" style="margin-bottom: 5px;">{{skillsSection.subTitle}}
+            <app-software-skill></app-software-skill>
+          <div *ngFor="let skill of skillsSection.skills">
+            <p class="subTitle skills-text py-1">{{skill}}</p>
+          </div>
+        </div>
+  <!--    </Fade>-->
+    </div>
+  </div>
+  
