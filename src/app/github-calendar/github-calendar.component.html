@@ -1,0 +1,34 @@
+<div class="github-section"  id="github-calendar">
+  <div class="section-title">
+    <h2>GitHub Contributions</h2>
+    <p class="subtitle">My coding journey visualized</p>
+  </div>
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <div class="stats-container">
+        <div class="stat-item">
+          <span class="stat-number" *ngIf="!stats.totalContributions">
+            <i class="fas fa-spinner fa-spin"></i>
+          </span>
+          <span class="stat-number" *ngIf="stats.totalContributions">{{ stats.totalContributions }}</span>
+          <span class="stat-label">Total Contributions</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" *ngIf="!stats.longestStreak">
+            <i class="fas fa-spinner fa-spin"></i>
+          </span>
+          <span class="stat-number" *ngIf="stats.longestStreak">{{ stats.longestStreak }}</span>
+          <span class="stat-label">Longest Streak</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" *ngIf="!stats.currentStreak">
+            <i class="fas fa-spinner fa-spin"></i>
+          </span>
+          <span class="stat-number" *ngIf="stats.currentStreak">{{ stats.currentStreak }}</span>
+          <span class="stat-label">Current Streak</span>
+        </div>
+      </div>
+    </div>
+    <div class="calendar" #calendarContainer></div>
+  </div>
+</div>
